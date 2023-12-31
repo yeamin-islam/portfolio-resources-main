@@ -1,0 +1,32 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 0;
+}
+
+.nav-title, button{
+font-weight: 1200px;
+}
+
+nav {
+    display: flex; /*Mary o nav k pashapashi rakhte*/
+    justify-content: space-between; /*Mary o nav k 2 pole e pathate*/
+    margin: 50px 200px;
+}
+nav ul {
+    display: flex; /*nav er vitorer shob pashapashi ante*/
+    align-items: center;
+}
+nav li {
+    list-style: none; /*bullet point cancel korte*/
+    margin: 50px;
+}
+
+button {
+    height: 64px;
+    color: white ;
+    padding:18px 35px;
+    background-color:#FD6E0A ;
+    border-style: none;
+
+}
