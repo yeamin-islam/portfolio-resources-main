@@ -1,16 +1,17 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
     padding: 0;
 }
 
-.nav-title, button{
+.nav-title {
 font-weight: 1200px;
+font-size: 45px;
 }
 
 nav {
     display: flex; /*Mary o nav k pashapashi rakhte*/
     justify-content: space-between; /*Mary o nav k 2 pole e pathate*/
+    align-items: center;
     margin: 50px 200px;
 }
 nav ul {
@@ -20,6 +21,7 @@ nav ul {
 nav li {
     list-style: none; /*bullet point cancel korte*/
     margin: 50px;
+    font-size: 20px ;
 }
 
 button {
@@ -28,5 +30,6 @@ button {
     padding:18px 35px;
     background-color:#FD6E0A ;
     border-style: none;
+    font-weight: bold;
 
 }
