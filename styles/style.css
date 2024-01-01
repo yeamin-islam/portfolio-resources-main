@@ -1,35 +1,96 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
     padding: 0;
 }
 
 .nav-title {
-font-weight: 1200px;
-font-size: 45px;
+    font-weight: 800px;
+    font-size: 45px;
 }
 
 nav {
-    display: flex; /*Mary o nav k pashapashi rakhte*/
-    justify-content: space-between; /*Mary o nav k 2 pole e pathate*/
+    display: flex;
+    /*Mary o nav k pashapashi rakhte*/
+    justify-content: space-between;
+    /*Mary o nav k 2 pole e pathate*/
     align-items: center;
-    margin: 50px 200px;
+    padding-right: 200px;
 }
+
 nav ul {
-    display: flex; /*nav er vitorer shob pashapashi ante*/
+    display: flex;
+    /*nav er vitorer shob pashapashi ante*/
+    align-items: center;
+    /*nav er vitorer shob horrizontally Center e ante*/
+    
+}
+
+nav li {
+    list-style: none;
+    /*bullet point cancel korte*/
+    margin: 50px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    height: 64px;
+    color: white;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.btn-white{
+    height: 64px;
+    color:#FD6E0A;
+    padding: 18px 35px;
+    background-color: #FFF8F3;
+    border:1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+/* Header Style */
+
+.header{
+    background-color: #FFF8F3;
+    background-image:url(/images/header_bg.png),url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom,30px; /* (Right side theke kototuku shorano/right/left)  (top side theke kototuku shorano/top/bottom) */
+    padding-left: 200px;
+    padding-right: 38px;
+}
+
+/* Banner style */
+.banner {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-nav li {
-    list-style: none; /*bullet point cancel korte*/
-    margin: 50px;
-    font-size: 20px ;
+
+.banner-sub-title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
 }
 
-button {
-    height: 64px;
-    color: white ;
-    padding:18px 35px;
-    background-color:#FD6E0A ;
-    border-style: none;
-    font-weight: bold;
+.banner-title {
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
 
+.banner-description {
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    margin-bottom: 30px;
 }
